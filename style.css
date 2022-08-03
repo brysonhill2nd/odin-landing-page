@@ -1,0 +1,234 @@
+@import url(https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap);
+
+.header {
+   
+    height: 100px;
+    background-color: #1f2937;
+    display: flex;
+    padding-left: 36px;
+    padding-right: 36px;
+   justify-content: space-between;
+
+
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: 800;
+    color: #f9faf8;
+    padding: 8px;
+   
+}
+
+
+ ul {
+     display: flex;
+        list-style-type: none;
+        margin: 8;
+        padding: 8;
+        gap: 8px; 
+    }
+
+a {
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    font-weight: 100;
+}
+ 
+
+img {
+max-height: 400px;
+max-width: 600px;
+
+}
+
+h1 {
+    color: #f9faf8;
+    font-size: 48px;
+   
+}
+
+.section1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: #1f2937;
+    padding: 36px;
+
+}
+
+.leftSection1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 800px;
+    padding: 36px;
+    gap: 8px;
+}
+
+.signUp {
+  border: none;
+  border-radius: 8px;
+  background: rebeccapurple;
+  color: white;
+  padding: 8px 24px;
+  max-width: 100px;
+}
+
+.image {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+} 
+
+.subtext {
+    font-size: 18px;
+    color: #e5e7eb;
+  
+    margin: auto;
+}
+
+.section2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.infoText {
+
+    color: #1f2937;
+    font-size: 36px;
+    margin-top: 8px;
+    font-weight: 800;
+
+}
+
+.boxes {
+
+    display: flex;
+    justify-content: space-between;
+    margin: 20px; 
+    gap: 20px; 
+}
+
+.box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 80px;
+    max-height: 210px;
+    max-width: 210px;
+
+}
+
+.boxPic {
+    border-radius: 20px;
+    border: 2px solid #3882f6;
+    max-width: 180px;
+    max-height: 180px;
+   
+}
+
+.subtext2 {
+    padding-top: 8px;
+}
+
+.section3 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #e5e7eb;
+    height: 400px;
+    flex-shrink: 1;
+
+}
+
+.quote {
+  
+    font-style: italic;
+    font-weight: 300;
+    font-size: 36px;
+    margin-left: 200px;
+    margin-right: 200px;
+    max-height: 100px;
+    min-height: auto;
+    min-width: 100px;
+    padding: 20px;
+    flex-shrink: 1;
+   
+    
+}
+
+.quotedBy {
+    display: flex;
+    align-self: flex-end;
+    font-weight: bold;
+    margin-right: 200px;
+    
+}
+
+.section4 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 20px;
+    
+}
+
+.CTA {
+    display: flex;
+    flex-direction: flex;
+    justify-content: space-around;
+    gap: 20px;
+    background-color: #3882f6;
+    border: solid px white;
+    border-radius: 10px;
+    margin: 50px;
+    flex-basis: 800px;
+   width: 600px;
+    padding: 30px;
+   
+}
+
+.CTAText {
+    display: flex; 
+    flex-direction: column;
+    font-weight: 800px;
+
+
+}
+
+.CTASubtext {
+    font-weight: 300;
+    font-size: small;
+}
+
+.CTA, .CTAText, .button2 {
+    color: #f9faf8;
+    background-color: #3882f6;
+}
+
+.button2 {
+    border: solid 2px white;
+    border-radius: 10px;
+   
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1f2937;
+    color: #f9faf8;
+    flex-shrink: 0;
+}
